@@ -1,0 +1,314 @@
+/* Main Color: #1c5996; */
+/* Secondary Color: #964b1c; */
+
+
+/* Constant */
+
+
+body {
+	padding-top: 56px;
+}
+
+
+/* Home page */
+
+.search-form {
+	margin-left: 150px;
+}
+.search-form,
+.search-form input {
+	width: 450px !important;
+	border-radius: 0;
+}
+
+.links ul {
+	margin-right: 40px;
+}
+.links ul li {
+	margin-right: 10px;
+}
+
+.navbar  {
+	background-color: #1c5996!important;
+}
+
+.navbar div a.navbar-brand,
+.navbar div ul li a.nav-link  {
+	color: #fff!important;
+}
+
+.navbar span.logo {
+	background-color: #fff;
+	color: #1c5996;
+	padding: 8px;
+	border-radius: 10px 20px;
+}
+
+
+
+.home_picture {
+	height: 600px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('../../images/computer-screens-running-programming-code-empty-software-developing-agency-office-computers-parsing-data-algorithms-background-neural-network-servers-cloud-computing-data-room.jpg');
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: cover;
+}
+
+.home_picture .background_text {
+	padding-top: 180px;
+	padding-left: 40px;
+	font-family: Lato;
+	color: #fff;
+
+}
+.home_picture .background_text p:nth-child(1) {
+	font-size: 60px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.home_picture .background_text p:nth-child(2) {
+	font-size: 25px;
+	margin-top: -5px;
+	padding-top: 0;
+	font-weight: 400;
+	margin-left: 5px;
+	color: #cccccc;
+}
+.home_picture .background_text p strong {
+	color: #1c5996;
+}
+.home_picture .background_text p span.number {
+	color: #1c5996;
+}
+
+.home_picture .background_text .actions {
+	width: 450px;
+	margin: 40px auto;
+}
+.home_picture .background_text .actions a {
+	width: 200px;
+	border-radius: 30px;
+	font-size: 22px;
+	font-weight: 400;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: #e0e0e0;
+	transition: .3s ease-in-out;
+}
+.home_picture .background_text .actions a:nth-child(2) {
+	margin-left: 5px;
+	border-color: #fff;
+	color: #1c5996;
+}
+
+.home_picture .background_text .actions a:hover {
+	color: #fff;
+}
+
+.home_picture .background_text .actions a:nth-child(2):hover {
+	background-color: #1c5996;
+	border-color: #1c5996;
+	color: #fff;
+}
+.btn-primary {
+	background-color: #1c5996;
+	border-color: #1c5996;
+}
+
+/* User Courses Carusel */
+
+.carousel {
+	margin-top: 30px;
+}
+#courses-header {
+	margin-bottom: 30px;
+}
+#courses-header h4 {
+	display: inline-block;
+	margin-left: 220px;
+	float: left;
+	font-family: 'Lato';
+}
+#courses-header a {
+	font-size: 20px;
+	float: right;
+	margin-right: 220px;
+	text-decoration: none;
+}
+.carousel .course img {
+	width: 300px;
+	height: 200px;
+	margin-left: -15px;
+}
+.carousel .course figure {
+	margin: 0;
+	padding: 0;
+}
+.carousel .course .col-sm-4,
+.carousel .course .col-sm-4 {
+	background-color: #f3f4f5;
+}
+.course a {
+	text-decoration: none;
+	font-family: 'Lato';
+	margin-top: 10px;
+	color: #000;
+}
+
+
+.carousel .left-arrow,
+.carousel .right-arrow {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	z-index: 1000;
+	color: #eaeaea;
+	background: #1c5996;
+	transition: .3s ease-in-out;
+}
+.carousel .left-arrow:hover,
+.carousel .right-arrow:hover {
+	color: #1c5996;
+	background: #eaeaea;
+}
+.carousel .left-arrow {
+	top: 150px;
+	left: 100px;
+	padding-top: 12px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.carousel .right-arrow {
+	top: 150px;
+	right: 100px;
+	padding-top: 12px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+
+/* Famouse Track Courses */
+
+.famous-courses {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.famous-courses h4 {
+	margin-bottom: 20px;
+	margin-top: 50px;
+	font-family: 'Lato';
+}
+.famous-courses .course {
+    border: 1px solid #eaeaea;
+    padding-bottom: 20px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+
+.famous-courses .course h6 {
+	padding: 10px;
+	min-height: 60px;
+}
+.famous-courses .course img {
+	width: 255px;
+	height: 170px;
+	transition: .1s ease-in-out;
+}
+
+.famous-courses .course img:hover {
+	opacity: .8;
+}
+
+/* Famous Tracks */
+
+.famous-tracks {
+	margin-top: 20px;
+}
+.famous-tracks .tracks ul li:nth-child(1),
+.famous-tracks .tracks ul li:nth-child(6) {
+	margin-left: 5px;
+}
+.famous-tracks .tracks ul li {
+	display: inline-block;
+	padding: 10px 0 10px 5px;
+	width: 18%;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+
+.famous-tracks .tracks ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 0;
+	font-size: 22px;
+	background-color: #fff;
+	color: #505050;
+}
+
+/* Recommended Courses */
+
+.recommended-courses .courses .course .course-image {
+	width: 100%;
+}
+.recommended-courses .courses .course .course-image img {
+	width: 100%;
+	height: 80px;
+}
+.recommended-courses .courses .course {
+	margin-bottom: 10px;
+	padding-bottom: 0;
+}
+
+.recommended-courses .courses .course .course-details .course-title{
+ 	padding-top: 10px;
+}
+
+
+/* Footer */
+
+
+footer {
+	background-color: #1a4e82;
+}
+
+footer .row > .col-md-4 {
+	color: #fff;
+}
+
+footer .row .col-md-2 {
+	color: #fff;
+}
+
+footer .row .col-md-2 ul li a {
+	color: #bdbdbd;
+	text-decoration: none;
+	transition: .3s ease-in-out;
+}
+
+footer .row .col-md-2 ul li a:hover {
+	color: #fff;
+}
+
+footer > ul li h5,
+footer > ul li a {
+	color: #fff!important;
+	font-weight: 300!important;
+}
+
+footer > ul li a {
+	padding: .84rem 2.14rem!important;
+	border-radius: 10em!important;
+	font-weight: bold!important;
+}
+
+
+footer div.footer-copyright {
+	background-color: #0c3763;
+	color: #bdbdbd;
+}
+footer div.footer-copyright a {
+	color: #fff;
+	text-decoration: none;
+}
