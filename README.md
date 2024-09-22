@@ -18,40 +18,6 @@ This project is an online course platform developed using the Laravel framework.
 - **MySQL**: Database to store user information, courses, and quiz results.
 - **Bootstrap**: Frontend framework for creating a responsive design.
 
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/online-course-platform.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd online-course-platform
-    ```
-
-3. Install dependencies:
-    ```bash
-    composer install
-    npm install
-    ```
-
-4. Set up environment variables:
-    - Create a `.env` file by copying `.env.example` and update the necessary configurations:
-    ```bash
-    cp .env.example .env
-    php artisan key:generate
-    ```
-
-5. Run migrations to set up the database:
-    ```bash
-    php artisan migrate
-    ```
-
-6. Start the development server:
-    ```bash
-    php artisan serve
-    ```
 
 ## Usage
 
@@ -59,11 +25,4 @@ This project is an online course platform developed using the Laravel framework.
 - After enrolling in a course, users can follow lessons and take quizzes.
 - Progress will be tracked as users complete each part of a course.
 
-## Contributing
-
-Contributions are welcome! If you'd like to help improve the platform, please fork the repository and submit a pull request.
-
-## License
-
-This project is open-sourced software licensed under the [MIT license](LICENSE).
 
